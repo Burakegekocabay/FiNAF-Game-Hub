@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number | FinAF</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Number Guesser</h1>
+        <p class="description">I am thinking of a number between 1 and 100.</p>
+        
+        <div class="input_area">
+            <input type="number" id="user_guess" placeholder="00" min="1" max="100">
+            <button id="guess_button">GUESS</button>
+        </div>
+
+        <p id="up_or_down">Start guessing...</p>
+        <p id="attempt">Attempts: 0</p>
+        
+        <button id="again" style="display: none;">PLAY AGAIN</button>
+        <br>
+        <a href="../index.html" class="hub">← Back to Hub</a>
+    </div>
+    <script src="guess.js"></script>
+</body>
+</html>
