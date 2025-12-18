@@ -1,5 +1,6 @@
 const gamehub = document.getElementById('gamehub');
 const error = document.getElementById('error');
+const button1 = document.getElementById('button1');
 
 if (gamehub) {
     const text = gamehub.innerText;
@@ -19,7 +20,7 @@ if (gamehub) {
 if (error) {
     const originalText = error.innerText; // "TypeError: Fun is not a function"
     const words = originalText.split(' ');
-    
+
     // Colors for F - N - A - F
     const initialColors = ['#ff3e3e', '#0eeee7ff', '#fff200ff', '#f40992ff'];
     let colorPointer = 0;
@@ -42,8 +43,8 @@ if (error) {
 
     error.innerHTML = formattedText;
 }
-const btn1 = document.getElementById('button1');
 
-btn1.addEventListener('click', () => {
+
+button1.addEventListener('click', () => {
     window.location.href = 'guess_number/index.html';
 });

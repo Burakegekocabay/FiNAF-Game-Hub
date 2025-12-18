@@ -46,6 +46,7 @@ h3::after{
 .game-button:hover {
     background-color: #a9a8a0;
     transform: translateY(-10px);
+    transition: 0.5s;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     filter: brightness(1.2) contrast(1.1);
 }
