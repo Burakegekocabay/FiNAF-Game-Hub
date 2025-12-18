@@ -42,3 +42,8 @@ if (error) {
 
     error.innerHTML = formattedText;
 }
+const btn1 = document.getElementById('button1');
+
+btn1.addEventListener('click', () => {
+    window.location.href = 'guess_number/index.html';
+});

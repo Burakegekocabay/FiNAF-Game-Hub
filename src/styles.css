@@ -39,9 +39,20 @@ h3::after{
     background-color: #c1c0b7;
     border: 2px solid #333;
     cursor: pointer;
+    border-radius: 10%;
+    background-size: cover;       
+    background-position: center;  
 }
 .game-button:hover {
     background-color: #a9a8a0;
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    filter: brightness(1.2) contrast(1.1);
 }
+
+#button1 { background-image: url('../img/guess_number.png'); }
+#button2 { background-image: url(''); }
+#button3 { background-image: url(''); }
+#button4 { background-image: url(''); }
+#button5 { background-image: url(''); }
+#button6 { background-image: url(''); }
