@@ -27,3 +27,21 @@ h3::after{
         opacity: 0;
     }
 }
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px auto;
+    max-width: 50%;
+    gap: 20px;
+}
+.game-button {
+    aspect-ratio: 1 / 1;
+    background-color: #c1c0b7;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+.game-button:hover {
+    background-color: #a9a8a0;
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
