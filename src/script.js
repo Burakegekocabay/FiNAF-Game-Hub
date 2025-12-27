@@ -1,6 +1,7 @@
 const gamehub = document.getElementById('gamehub');
 const error = document.getElementById('error');
 const button1 = document.getElementById('button1');
+const button2 = document.getElementById('button2');
 
 if (gamehub) {
     const text = gamehub.innerText;
@@ -47,4 +48,8 @@ if (error) {
 
 button1.addEventListener('click', () => {
     window.location.href = 'guess_number/index.html';
+});
+
+button2.addEventListener('click', () => {
+    window.location.href = 'pokedex/index.html';
 });
