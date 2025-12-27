@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+body {
+    background-color: #202020;
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    text-align: center;
+}
+
+h1 {
+    color: #FFCB05;
+    margin-bottom: 20px;
+}
+
+h1:hover {
+    text-shadow: 0 0 10px #3d7dca;
+}
+
+.poke-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.poke-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    text-align: right;
+    color: #ff3131;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.img {
+    background: #f8f9fa;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #fff;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#poke-img {
+    width: 160px;
+    height: 160px;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.2));
+}
+
+#poke-name {
+    margin: 10px 0 5px;
+    font-size: 1.8rem;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.type-badge {
+    background: #333;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat p {
+    margin: 2px 0;
+}
+
+
+.stat p:first-child {
+    /* For Attack Defence Speed*/
+    color: #888;
+    font-size: 0.7rem;
+}
+
+.stat p:last-child {
+    /* For numeric values */
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.summon {
+    background-color: #FFCB05;
+    /* Pokemon yellow */
+    border: 4px solid #3d7dca;
+    /* Pokemon blue */
+    color: #3d7dca;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #2a5a96;
+    transition: all 0.1s;
+}
+
+.summon:hover {
+    transform: translateY(-5px);
+}
+
+.summon:active {
+    box-shadow: 0 0 0 #2a5a96;
+    transform: translateY(5px);
+}
+
+.hub {
+    color: #888;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s
+}
+
+.hub:hover {
+    color: #3d7dca;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #FFCB05;
+}
