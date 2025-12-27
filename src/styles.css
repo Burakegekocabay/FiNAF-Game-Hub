@@ -1,6 +1,9 @@
 body {
     text-align: center;
     align-items: center;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    /*better design*/
 }
 
 h1 {

@@ -5,7 +5,7 @@ const button2 = document.getElementById('button2');
 
 if (gamehub) {
     const text = gamehub.innerText;
-    const colors = ['#d72814ff', '#000000ff', '#0eeee7ff', '#fff200ff', '#f40992ff'];
+    const colors = ['#d72814ff', '#fff', '#0eeee7ff', '#fff200ff', '#f40992ff'];
 
     let newText = "";
     for (let i = 0; i < text.length; i++) {
