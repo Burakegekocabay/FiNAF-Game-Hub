@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Roulette | FiNAF</title>
+        <link rel="stylesheet" href="roulette.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Roulette</h1>
+            <p>MY BALANCE: <span id="balance">100</span> </p>
+
+            <div>
+                <div id="result" class="result">--</div>
+                <p id="info">Choose your bet and spin!</p>
+            </div>
+
+            <div class="betting-controls">
+                <div class="input-group">
+                    <span>BET AMOUNT:</span>
+                    <input type="number" id="bet-input" value="10" min="1">
+                </div>
+
+                <div class="button-grid">
+                    <button class="bet-btn red" onclick="setBet('red')">RED
+                        (2x)</button>
+                    <button class="bet-btn black"
+                        onclick="setBet('black')">BLACK (2x)</button>
+                </div>
+
+                <div class="number-bet">
+                    <input type="number" id="num-input" placeholder="0-36"
+                        min="0" max="36">
+                    <button class="bet-btn gold" onclick="setNumberBet()">BET ON
+                        NUMBER (35x)</button>
+                </div>
+
+                <p id="current-bet">Selected: None</p>
+            </div>
+
+            <button id="spin" class="main-btn" disabled>SPIN WHEEL</button>
+            <br>
+            <a href="../index.html" class="hub">← Back to Hub</a>
+        </div>
+        <script src="roulette.js"></script>
+    </body>
+</html>

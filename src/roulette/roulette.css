@@ -1,0 +1,94 @@
+body {
+    background: #033a10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background: white;
+    padding: 20px;
+    border-radius: 50px;
+    width: 350px;
+    text-align: center;
+}
+
+.result {
+    width: 100px;
+    height: 100px;
+    background: rgb(154, 154, 154);
+    border: 6px solid #808080;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.button-grid {
+    margin: 15px;
+}
+
+.bet-btn {
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+.red {
+    background: #e94560;
+}
+
+.black {
+    background: #000;
+}
+
+.gold {
+    background: #ffd700;
+    color: #1a1a2e;
+}
+
+.main-btn {
+    width: 100%;
+    padding: 15px;
+    background: #033a10;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-btn:disabled {
+    background: #444;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.hub {
+    color: #033a10;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.hub:hover {
+    color: #00f;
+    transform: translateY(-3px);
+    transition: 0.3s;
+    box-shadow: 0 0 10px #fff;
+}
+
+input {
+    background: #033a10;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    width: 60px;
+    text-align: center;
+}
