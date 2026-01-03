@@ -2,6 +2,7 @@ const gamehub = document.getElementById('gamehub');
 const error = document.getElementById('error');
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
+const button4 = document.getElementById('button4');
 
 if (gamehub) {
     const text = gamehub.innerText;
@@ -52,4 +53,8 @@ button1.addEventListener('click', () => {
 
 button2.addEventListener('click', () => {
     window.location.href = 'pokedex/index.html';
+});
+
+button4.addEventListener('click', () => {
+    window.location.href = 'roulette/index.html';
 });
