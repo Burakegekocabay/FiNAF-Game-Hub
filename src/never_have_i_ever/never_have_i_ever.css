@@ -32,3 +32,16 @@ button {
     background-color: #ddd;
     border: 1px solid black;
 }
+.hub {
+    color: #888;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s
+}
+
+.hub:hover {
+    color: #3d7dca;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #FFCB05;
+}
